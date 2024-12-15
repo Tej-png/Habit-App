@@ -49,7 +49,6 @@ function SmCalender({ today, openModal, closeModal, userPass }) {
     newDate.setDate(startDate.getDate() - 7);
     setStartDate(newDate);
   }
-  console.log(weekdays);
 
   return (
     <>
@@ -77,7 +76,6 @@ function SmCalender({ today, openModal, closeModal, userPass }) {
                     <div className="day">{item.day.toUpperCase()}</div>
                     <p className="day">{item.date}</p>
                   </div>
-                  {console.log(startDate)}
                 </div>
               ))}
           </div>

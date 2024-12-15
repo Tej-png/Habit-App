@@ -267,11 +267,22 @@
     text-align: center;
   }
 
+  .main {
+    display: flex;
+    flex-direction : column-reverse;
+    text-align: left
+  }
+  
+
   .habit-container {
     width: 100%;
     text-align: left;
   
    
+  }
+
+  .nav-bar h1 {
+    font-size : 2.5em
   }
 
   .cal-button {
@@ -281,6 +292,8 @@
   .day {
     font-size: 10px;
   }
+
+
 
 
   .habits {

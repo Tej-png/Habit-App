@@ -3,8 +3,6 @@ import '../../App.css';
 
 function XsCal({ today }) {
   const [count, setCount] = useState(0);
-  console.log(today.getDay());
-
   const Days = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
 
   return (

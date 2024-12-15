@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
       <Routes>
-        {console.log(userPass)}
         {/* Route for the Login Page */}
         <Route
           path="/"

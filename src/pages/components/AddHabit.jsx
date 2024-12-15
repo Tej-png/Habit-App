@@ -19,7 +19,6 @@ function AddHabit({ closeModal, setHabits, setCount }) {
     setCount(+1);
     setHabitName('');
     closeModal();
-    console.log(habits);
   }
 
   return (

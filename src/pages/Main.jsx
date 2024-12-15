@@ -16,7 +16,6 @@ function Main({ userPass }) {
   const closeModal = () => {
     setIsHabitOpen(false);
   };
-  console.log(habits);
   const today = new Date();
   return (
     <>

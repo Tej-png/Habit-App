@@ -19,7 +19,6 @@ function Login({ setUserPass, userPass }) {
           ></input>
           <label for="password">Password </label>
           <input placeholder="Enter your password" id="password"></input>
-          {console.log(userPass)}
           <Link to={userPass ? '/main' : '/'}>
             <button className="login-btn">SIGN IN</button>
           </Link>
